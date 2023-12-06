@@ -3,8 +3,8 @@
 ## Usage
 
 > [!NOTE]  
-> In order to execute Maven archetypes in Windows, you should use quotes around the arguments
+> In order to execute Maven archetypes in Windows, you might need to use quotes around the arguments
 
 ```
-mvn archetype:generate "-DgroupId=dev.andresgarcia" "-DartifactId=a-aem-archetype" "-DarchetypeGroupId=org.apache.maven.archetypes" "-DarchetypeArtifactId=maven-archetype-archetype"
+mvn archetype:generate -DgroupId=com.example -DartifactId=a-aem-archetype-example -DarchetypeGroupId=dev.andresgarcia -DarchetypeArtifactId=a-aem-archetype
 ```
