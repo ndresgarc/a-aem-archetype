@@ -25,10 +25,7 @@ under the License.
 
   <fileSets>
     <fileSet filtered="true" packaged="true">
-      <directory>src/main/java</directory>
-    </fileSet>
-    <fileSet filtered="true" packaged="true">
-      <directory>src/test/java</directory>
+      <directory>core</directory>
     </fileSet>
   </fileSets>
 </archetype-descriptor>
