@@ -27,5 +27,8 @@ under the License.
     <fileSet filtered="true" packaged="true">
       <directory>core</directory>
     </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>ui.apps</directory>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
