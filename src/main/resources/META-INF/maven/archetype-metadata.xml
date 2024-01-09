@@ -30,5 +30,11 @@ under the License.
     <fileSet filtered="true" packaged="true">
       <directory>ui.apps</directory>
     </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>ui.frontend</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>ui.config.apps</directory>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
