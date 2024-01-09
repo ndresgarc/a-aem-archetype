@@ -1,2 +1,5 @@
 # Maven build
 target/
+
+# Testing
+test/
