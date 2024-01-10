@@ -2,4 +2,6 @@
 target/
 
 # Testing
-test/
+test/*
+!test/clean-test.cmd
+!test/run-test.cmd
