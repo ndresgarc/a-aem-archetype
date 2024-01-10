@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.example -DartifactId=a-aem-archetype-example -DarchetypeGroupId=dev.andresgarcia -DarchetypeArtifactId=a-aem-archetype
