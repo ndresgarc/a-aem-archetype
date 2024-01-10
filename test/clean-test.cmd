@@ -1,0 +1,1 @@
+RMDIR "a-aem-archetype-example" /S /Q
