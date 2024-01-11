@@ -2,6 +2,12 @@
 
 ## Usage
 
+### Compile
+
+```
+mvn clean install
+```
+
 > [!NOTE]  
 > In order to execute Maven archetypes in Windows, you might need to use quotes around the arguments
 
