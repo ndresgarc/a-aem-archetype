@@ -23,6 +23,15 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
   name="${artifactId}">
 
+  <requiredProperties>
+    <requiredProperty key="siteSlug">
+        <defaultValue>my-site</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="artifactId"/>
+    <requiredProperty key="version"/>
+    <!-- Other required properties can be added as needed -->
+  </requiredProperties>
+
   <fileSets>
     <fileSet filtered="true" packaged="true">
       <directory>core</directory>
