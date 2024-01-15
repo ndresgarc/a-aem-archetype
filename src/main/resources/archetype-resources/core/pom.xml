@@ -15,9 +15,18 @@
     <description>Core bundle for ${artifactId}</description>
 
     <build>
+        <plugins>
+            <plugin>
+                ...
+            </plugin>
+        </plugins>
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>...</groupId>
+            <artifactId>...</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
