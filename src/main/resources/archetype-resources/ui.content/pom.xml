@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>${groupId}</groupId>
+        <artifactId>${artifactId}</artifactId>
+        <version>${version}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>${artifactId}.core</artifactId>
+    <name>Core</name>
+    <description>Core bundle for ${artifactId}</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                ...
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>...</groupId>
+            <artifactId>...</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
